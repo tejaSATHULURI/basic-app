@@ -2,10 +2,9 @@
   "name": "basic-app",
   "version": "2.0.1",
   "description": "Basic APP",
-  "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
   },
   "keywords": [],
   "author": "teja",
